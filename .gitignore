@@ -1,0 +1,47 @@
+# General
+.DS_Store
+node_modules/
+*.log
+*.lock
+*.env
+*.env.local
+*.env.development
+*.env.production
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo
+.expo
+.expo-shared
+expo-debug.log
+expo-error.log
+
+# iOS
+**/ios/Pods/
+**/ios/Podfile.lock
+**/ios/Podfile
+**/ios/*.xcworkspace
+**/ios/*.xcodeproj
+**/ios/build
+**/ios/xcuserdata
+**/ios/.xcode.env.local
+
+# Android
+**/android/.gradle
+**/android/app/build
+**/android/app/gradle
+**/android/app/src/main/assets
+**/android/build-cache
+**/android/local.properties
+**/android/gradlew
+**/android/gradlew.bat
+**/android/gradle/wrapper/gradle-wrapper.jar
+
+# Generated asset files
+/assets.json
+/assets/*.map
+/assets/**/*.map
+
+# vscode
+.vscode/
