@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e438af67-fdfb-49a2-bbc0-b7b9f88d275b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navigation/AppNavigator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/EmailScreen/EmailScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/EmailScreen/styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/EventsListScreen/EventsListScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/EventsListScreen/styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/OpenCommunityScreen/OpenCommunityScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/OpenCommunityScreen/styles.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/PasswordScreen/PasswordScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/screens/PasswordScreen/styles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +26,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.gitignore" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/App.tsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/navigation/AppNavigator.tsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/screens/EmailScreen/EmailScreen.tsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/screens/EmailScreen/styles.tsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/screens/EventsListScreen/EventsListScreen.tsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/screens/OpenCommunityScreen/OpenCommunityScreen.tsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/screens/OpenCommunityScreen/styles.tsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/screens/PasswordScreen/PasswordScreen.tsx" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/screens/PasswordScreen/styles.tsx" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,7 +57,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.android">
     <configuration name="android" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -48,9 +68,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="ios" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="ios" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="npm.android" />
+        <item itemvalue="npm.ios" />
       </list>
     </recent_temporary>
   </component>
@@ -65,6 +96,7 @@
       <workItem from="1684068038437" duration="409000" />
       <workItem from="1684068716933" duration="361000" />
       <workItem from="1684069131876" duration="516000" />
+      <workItem from="1684164609727" duration="16548000" />
     </task>
     <servers />
   </component>
