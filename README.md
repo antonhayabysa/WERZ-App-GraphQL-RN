@@ -1,6 +1,6 @@
 WERZ App
-WERZ App - это упрощенная версия приложения WERZ, разработанная для оценки базовых навыков и умений работы с GraphQL API. Приложение создано с использованием React Native Expo, React Query, TypeScript и ESLint.
-
+WERZ App - это упрощенная версия приложения WERZ, разработанная для оценки базовых навыков и умений работы с GraphQL API. Приложение создано с использованием React Native Expo, React Query, TypeScript и ESLint.  
+Designs can be found here https://www.figma.com/file/865BdldmrRAk8OLtrEZLFU/WERZ-take-home?type=design&node-id=1-674&t=ayBW8HrrSQJydbcx-0
 
 <img width="403" alt="Снимок экрана 2023-05-19 в 15 42 28" src="https://github.com/antonhayabysa/WERZ-App-GraphQL-RN/assets/83969662/564a2233-717f-42e7-abd4-5618a9ec031e">
 <img width="403" alt="Снимок экрана 2023-05-19 в 15 42 25" src="https://github.com/antonhayabysa/WERZ-App-GraphQL-RN/assets/83969662/780dd6ee-3d77-4901-93a6-14e526179553">
