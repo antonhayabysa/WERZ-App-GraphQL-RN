@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   View,
   Text,
@@ -6,20 +6,20 @@ import {
   Image,
   SafeAreaView,
   ScrollView,
-} from "react-native";
-import { StackNavigationProp } from "@react-navigation/stack";
-import { RouteProp } from "@react-navigation/native";
-import { RootStackParamList } from "../../navigation/AppNavigator";
-import styles from "./styles";
+} from 'react-native';
+import { StackNavigationProp } from '@react-navigation/stack';
+import { RouteProp } from '@react-navigation/native';
+import { RootStackParamList } from '../../navigation/AppNavigator';
+import styles from './styles';
 
 type EventsListScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
-  "EventsListScreen"
+  'EventsListScreen'
 >;
 
 type EventsListScreenRouteProp = RouteProp<
   RootStackParamList,
-  "EventsListScreen"
+  'EventsListScreen'
 >;
 
 interface EventsListScreenProps {
@@ -31,7 +31,7 @@ const EventsListScreen: React.FC<EventsListScreenProps> = ({ navigation }) => {
     <SafeAreaView style={{ flex: 1 }}>
       <ImageBackground
         style={styles.image}
-        source={require("../../../assets/image360.png")}
+        source={require('../../../assets/image360.png')}
       >
         <ScrollView contentContainerStyle={styles.container}>
           <Text style={styles.eventTitle}>Events</Text>
@@ -39,7 +39,7 @@ const EventsListScreen: React.FC<EventsListScreenProps> = ({ navigation }) => {
             <View style={styles.eventContainer}>
               <Image
                 style={styles.imageItem}
-                source={require("../../../assets/picturesOfGirls.png")}
+                source={require('../../../assets/picturesOfGirls.png')}
               />
               <View>
                 <View style={styles.eventTimeContainer}>
@@ -59,7 +59,7 @@ const EventsListScreen: React.FC<EventsListScreenProps> = ({ navigation }) => {
             <View style={styles.eventContainer}>
               <Image
                 style={styles.imageItem}
-                source={require("../../../assets/picturesOfGirls.png")}
+                source={require('../../../assets/picturesOfGirls.png')}
               />
               <View>
                 <View style={styles.eventTimeContainer}>

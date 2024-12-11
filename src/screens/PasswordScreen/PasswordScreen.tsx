@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import {
   View,
   Text,
   TextInput,
   TouchableOpacity,
   ImageBackground,
-} from "react-native";
-import { StackNavigationProp } from "@react-navigation/stack";
-import { RootStackParamList } from "../../navigation/AppNavigator";
-import styles from "./styles";
-import { gql, useMutation } from "@apollo/client";
+} from 'react-native';
+import { StackNavigationProp } from '@react-navigation/stack';
+import { RootStackParamList } from '../../navigation/AppNavigator';
+import styles from './styles';
+import { gql, useMutation } from '@apollo/client';
 
 const LOGIN_MUTATION = gql`
   mutation Login($identifier: String!, $password: String!) {
@@ -34,7 +34,7 @@ const LOGIN_MUTATION = gql`
 
 type EmailScreenNavigationProp = StackNavigationProp<
   RootStackParamList,
-  "EmailScreen"
+  'EmailScreen'
 >;
 
 interface EmailScreenProps {
@@ -42,15 +42,15 @@ interface EmailScreenProps {
 }
 
 const PasswordScreen: React.FC<EmailScreenProps> = ({ navigation }) => {
-  const [password, setPassword] = useState("");
+  const [password, setPassword] = useState('');
   const [login, { data, loading, error }] = useMutation(LOGIN_MUTATION);
 
   const handleLoginPress = () => {
-    if (password === "123") {
+    if (password === '123') {
       login({ variables: { identifier: 123, password } });
-      navigation.navigate("OpenCommunityScreen");
+      navigation.navigate('OpenCommunityScreen');
     } else {
-      console.log("Неверный пароль");
+      console.log('Неверный пароль');
     }
   };
   const handleGoBack = () => {
@@ -59,7 +59,7 @@ const PasswordScreen: React.FC<EmailScreenProps> = ({ navigation }) => {
   return (
     <ImageBackground
       style={styles.image}
-      source={require("../../../assets/Group.png")}
+      source={require('../../../assets/Group.png')}
     >
       <View style={styles.outerContainer}>
         <TouchableOpacity style={styles.backButton} onPress={handleGoBack}>

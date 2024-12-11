@@ -1,10 +1,10 @@
-import React from "react";
-import { NavigationContainer } from "@react-navigation/native";
-import EmailScreen from "../screens/EmailScreen/EmailScreen";
-import PasswordScreen from "../screens/PasswordScreen/PasswordScreen";
-import OpenCommunityScreen from "../screens/OpenCommunityScreen/OpenCommunityScreen";
-import EventsListScreen from "../screens/EventsListScreen/EventsListScreen";
-import { createStackNavigator } from "@react-navigation/stack";
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import EmailScreen from '../screens/EmailScreen/EmailScreen';
+import PasswordScreen from '../screens/PasswordScreen/PasswordScreen';
+import OpenCommunityScreen from '../screens/OpenCommunityScreen/OpenCommunityScreen';
+import EventsListScreen from '../screens/EventsListScreen/EventsListScreen';
+import { createStackNavigator } from '@react-navigation/stack';
 
 export type RootStackParamList = {
   EmailScreen: any;
